@@ -1,0 +1,206 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.header, .main-banner, .deals-section {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.top-bar {
+    background-color: #232f3e;
+    color: white;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    color: white;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+.location span {
+    display: block;
+}
+
+.search-bar {
+    width: 40%;
+    padding: 10px;
+}
+
+.account-links {
+    display: flex;
+    gap: 10px;
+}
+
+.account-links a {
+    color: white;
+    text-decoration: none;
+}
+
+.main-banner {
+    background: #eef1f6;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.banner-text h2 {
+    font-size: 24px;
+    margin: 0;
+}
+
+.banner-images img {
+    width: 200px;
+    margin-left: 10px;
+}
+
+.deals-section {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.deal-category {
+    flex: 1;
+    margin: 10px;
+}
+
+.deal-category h3 {
+    font-size: 18px;
+}
+
+.products {
+    display: flex;
+    gap: 10px;
+}
+
+.ad-banner {
+    background-color: #f3f3f3;
+    padding: 20px;
+    text-align: center;
+}
+
+.ad-banner a {
+    display: inline-block;
+    background-color: #ffd814;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+
+
+/* Existing CSS content */
+
+.footer-back-to-top {
+    background-color: #37475a;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.footer-back-to-top a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.footer-content {
+    background-color: #232f3e;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0;
+    flex-wrap: wrap;
+}
+
+.footer-column {
+    flex: 1;
+    min-width: 200px;
+    margin: 10px;
+}
+
+.footer-column h3 {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.footer-column ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-column ul li {
+    margin-bottom: 5px;
+}
+
+.footer-column ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.footer-column ul li a:hover {
+    text-decoration: underline;
+}
+
+.footer-bottom {
+    background-color: #131a22;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.footer-logo a {
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+
+.footer-language-country a {
+    margin: 0 10px;
+    color: white;
+    text-decoration: none;
+}
+
+.footer-links {
+    margin: 10px 0;
+}
+
+.footer-links a {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    margin: 5px 10px;
+    font-size: 14px;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+
+.footer-legal {
+    font-size: 12px;
+    color: #aaa;
+}
+
+.footer-legal a {
+    color: #aaa;
+    text-decoration: none;
+    margin: 0 5px;
+}
+
+.footer-legal p {
+    margin: 10px 0 0;
+}

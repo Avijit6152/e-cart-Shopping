@@ -3,15 +3,147 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Amazon.in</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-
+        <div class="top-bar">
+            <a href="#" class="logo">amazon.in</a>
+            <div class="location">
+                <span>Deliver to Avijit</span>
+                <span>Kendrapara 754215</span>
+            </div>
+            <input type="text" class="search-bar" placeholder="Search Amazon.in">
+            <div class="account-links">
+                <span>Hello, Gulu</span>
+                <a href="#">Account & Lists</a>
+                <a href="#">Returns & Orders</a>
+                <a href="#" class="cart">Cart</a>
+            </div>
+        </div>
     </header>
 
+    <main>
+        <div class="main-banner">
+            <div class="banner-text">
+                <h2>Starting ₹1,299</h2>
+                <p>Exciting launches from top brands</p>
+            </div>
+            <div class="banner-images">
+                <img src="watch1.jpg" alt="Smartwatch 1">
+                <img src="watch2.jpg" alt="Smartwatch 2">
+            </div>
+        </div>
+        <div class="deals-section">
+            <div class="deal-category">
+                <h3>Pick up where you left off</h3>
+                <div class="products">
+                    <!-- Products HTML -->
+                </div>
+            </div>
+            <div class="deal-category">
+                <h3>Continue shopping deals</h3>
+                <div class="products">
+                    <!-- Products HTML -->
+                </div>
+            </div>
+            <div class="deal-category">
+                <h3>Deals on keyboard, mouse & more</h3>
+                <div class="products">
+                    <!-- Products HTML -->
+                </div>
+            </div>
+            <div class="ad-banner">
+                <h3>Launch your brand on Amazon.in</h3>
+                <a href="#">Start Registration</a>
+            </div>
+        </div>
+    </main>
+
     <footer>
-        
+        <div class="footer-back-to-top">
+            <a href="#">Back to top</a>
+        </div>
+        <div class="footer-content">
+            <div class="footer-column">
+                <h3>Get to Know Us</h3>
+                <ul>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Careers</a></li>
+                    <li><a href="#">Press Releases</a></li>
+                    <li><a href="#">Amazon Science</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h3>Connect with Us</h3>
+                <ul>
+                    <li><a href="#">Facebook</a></li>
+                    <li><a href="#">Twitter</a></li>
+                    <li><a href="#">Instagram</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h3>Make Money with Us</h3>
+                <ul>
+                    <li><a href="#">Sell on Amazon</a></li>
+                    <li><a href="#">Sell under Amazon Accelerator</a></li>
+                    <li><a href="#">Protect and Build Your Brand</a></li>
+                    <li><a href="#">Amazon Global Selling</a></li>
+                    <li><a href="#">Become an Affiliate</a></li>
+                    <li><a href="#">Fulfillment by Amazon</a></li>
+                    <li><a href="#">Advertise Your Products</a></li>
+                    <li><a href="#">Amazon Pay on Merchants</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h3>Let Us Help You</h3>
+                <ul>
+                    <li><a href="#">COVID-19 and Amazon</a></li>
+                    <li><a href="#">Your Account</a></li>
+                    <li><a href="#">Returns Centre</a></li>
+                    <li><a href="#">100% Purchase Protection</a></li>
+                    <li><a href="#">Amazon App Download</a></li>
+                    <li><a href="#">Help</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="footer-logo">
+                <a href="#">amazon</a>
+            </div>
+            <div class="footer-language-country">
+                <a href="#">English</a>
+                <a href="#">India</a>
+            </div>
+            <div class="footer-links">
+                <a href="#">AbeBooks</a>
+                <a href="#">Amazon Web Services</a>
+                <a href="#">Audible</a>
+                <a href="#">Shopbop</a>
+                <a href="#">Amazon Business</a>
+                <a href="#">Prime Now</a>
+                <a href="#">IMDb</a>
+                <a href="#">Amazon Prime Music</a>
+            </div>
+            <div class="footer-legal">
+                <a href="#">Conditions of Use & Sale</a>
+                <a href="#">Privacy Notice</a>
+                <a href="#">Interest-Based Ads</a>
+                <p>© 1996-2024, Amazon.com, Inc. or its affiliates</p>
+            </div>
+        </div>
     </footer>
+
+    <script>
+             document.querySelector('.footer-back-to-top a').addEventListener('click', function(e) {
+    e.preventDefault();
+    window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+    });
+});
+
+    </script>
 </body>
 </html>
